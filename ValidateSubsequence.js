@@ -12,4 +12,5 @@ function isValidSubsequence(array, sequence) {
       return j === sequence.length;
   }
 
-  // given array and sequence, determine if sequence is a subsequence of the integers in the array
+  // given array and sequence, determine if sequence is a subsequence where its integers 
+  // come in the same order as they appear in the array.
